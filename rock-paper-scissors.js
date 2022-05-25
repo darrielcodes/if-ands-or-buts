@@ -19,4 +19,10 @@ else if ((player1 === a && player2 === c) ||
 ){
     console.log("Player 1 wins!")
 }
-else {console.log("Player 2 wins!")}
+else if ((player2 === a && player1 === c) ||
+        (player2 === c && player1 === b) ||
+        (player2 === b && player1 == a)
+){
+    console.log("Player 2 wins!")
+}
+else {console.log("Error :(")}
